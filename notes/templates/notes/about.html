@@ -1,0 +1,31 @@
+{% extends "notes/layout.html" %}
+{% block title %}About Free Techno{% endblock title %}
+
+{% block content %}
+    <div class="container mt-5 mb-5">
+        <card class="card bg-secondary text-white">
+            <div class="card-header">
+                <p class="card-title display-4 text-center">Who are We!</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Software Development and Programming Agency</li>
+                    <li>Situated in the far Southern Parts of Africa</li>
+                    <li>Creators and Engineers of Digital Products (Tech to be Precise)</li>
+                    <li>Online Tutors of Software</li>
+                    <li>Always available for Contact: 
+                        <ul>
+                            <li>+268 76294516</li>
+                            <li>Freetechno Enterprises</li>
+                            <li>Free-techno Online </li>
+                            <li>In all Social Media!</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer card-footer text-center">
+                <a href="{% url 'index' %}" class="btn btn-primary form-control">Home</a>
+            </div>
+        </card>
+    </div>
+{% endblock content %}
